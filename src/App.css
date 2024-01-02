@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+.App {
+  text-align: center;
+  min-height: 98svh;
+  margin: 1svh;
+}
+
+.span1{
+  font-size: 42px;
+  font-weight: 500;
+  font-family: 'Alfa Slab One', serif;
+  color: white;
+}
+.span2{
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Alfa Slab One', serif;
+  color: white;
+}

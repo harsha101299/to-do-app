@@ -1,0 +1,83 @@
+.item {
+  background-color: rgb(255, 255, 255);
+  margin: 2% 15%;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 3px 5px 3px rgb(194, 190, 190);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  position: relative;
+}
+
+.priority {
+  width: 80px;
+  height: 30px;
+  border-radius: 40px;
+}
+
+.color1 {
+  background-color: rgb(238, 37, 22);
+}
+.color2 {
+  background-color: rgb(233, 148, 37);
+}
+.color3 {
+  background-color: rgb(10, 114, 10);
+}
+
+.deleteIcon {
+  position: absolute;
+  top: 20px;
+  right: 4%;
+  transition: 0.2s ease-in all;
+}
+
+.deleteIcon:hover {
+  cursor: pointer;
+}
+.deleteIcon:active {
+  transform: scale(1.1);
+}
+.editIcon {
+  position: absolute;
+  top: 20px;
+  right: 8%;
+  transition: 0.2s ease-in all;
+}
+.editIcon:hover {
+  cursor: pointer;
+}
+.editIcon:active {
+  transform: scale(1.1);
+}
+
+.completeTag {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.dateBody {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 480px) {
+  .item {
+    margin: 5% 8%;
+    box-shadow: none;
+  }
+  .deleteIcon {
+    top: 4%;
+  }
+  
+  .editIcon {
+    top: 4%;
+    right: 16%;
+  }
+}
